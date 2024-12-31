@@ -1,0 +1,25 @@
+public class NewClass {
+    public static void a(int n,String s){
+        System.out.print(s);
+        System.out.println(n);
+        
+        }
+    public static void b(){
+        System.out.println("B");
+        } 
+    public static void c(){
+        System.out.println("C");
+        }
+        
+    
+    public static void main(String[]args){
+        String name ="mounika " ;
+        a(120,name);
+        b();
+        c();
+     
+
+    }
+       
+    
+}
